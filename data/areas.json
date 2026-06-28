@@ -1,0 +1,79 @@
+{
+  "areas": {
+    "1": {
+      "name": "Зелёные равнины",
+      "min_level": 1,
+      "drops": ["wooden_log", "potato", "apple"]
+    },
+    "2": {
+      "name": "Гоблинский лес",
+      "min_level": 5,
+      "drops": ["wooden_log", "golden_fish", "wolfskin", "apple"]
+    },
+    "3": {
+      "name": "Забытые руины",
+      "min_level": 10,
+      "drops": ["epic_log", "carrot", "ruby", "zombieeye", "apple"]
+    },
+    "4": {
+      "name": "Вулканические пещеры",
+      "min_level": 15,
+      "drops": ["super_log", "carrot", "apple", "banana"]
+    },
+    "5": {
+      "name": "Логово дракона",
+      "min_level": 20,
+      "drops": ["mega_log", "bread", "banana", "unicornhorn", "dragonscale"]
+    },
+    "6": {
+      "name": "Тёмный лес",
+      "min_level": 30,
+      "drops": ["mega_log", "bread", "wolfskin", "banana", "mermaid_hair"]
+    },
+    "7": {
+      "name": "Ледяные вершины",
+      "min_level": 40,
+      "drops": ["hyper_log", "bread", "ruby", "unicornhorn"]
+    },
+    "8": {
+      "name": "Некрополь",
+      "min_level": 50,
+      "drops": ["hyper_log", "bread", "mermaid_hair", "zombieeye"]
+    },
+    "9": {
+      "name": "Обсидиановый замок",
+      "min_level": 60,
+      "drops": ["ultra_log", "bread", "ruby", "wolfskin"]
+    },
+    "10": {
+      "name": "Храм времени",
+      "min_level": 70,
+      "drops": ["ultra_log", "bread", "chip", "unicornhorn"]
+    },
+    "11": {
+      "name": "Затерянный мир",
+      "min_level": 80,
+      "drops": ["ultimate_log", "bread", "chip", "dragonscale"]
+    },
+    "12": {
+      "name": "Забытый храм",
+      "min_level": 85,
+      "drops": ["ultimate_log", "bread", "ruby", "mermaid_hair"]
+    },
+    "13": {
+      "name": "Руины древних",
+      "min_level": 90,
+      "drops": ["ultimate_log", "bread", "chip", "unicornhorn"]
+    },
+    "14": {
+      "name": "Тёмная бездна",
+      "min_level": 95,
+      "drops": ["ultimate_log", "bread", "ruby", "dragonscale"]
+    },
+    "15": {
+      "name": "Хронова Земля",
+      "min_level": 100,
+      "drops": ["ultimate_log", "bread", "chip", "unicornhorn"]
+    }
+  }
+}

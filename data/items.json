@@ -1,0 +1,94 @@
+{
+  "shop": {
+    "life_potion": {
+      "name": "Life Potion",
+      "emoji": "🧪",
+      "buy_price": 25,
+      "description": "Восстанавливает HP"
+    },
+    "basic_armor": {
+      "name": "Basic Armor",
+      "emoji": "🛡️",
+      "buy_price": 200,
+      "description": "[+2 def] Уродливая броня из дерева"
+    },
+    "basic_sword": {
+      "name": "Basic Sword",
+      "emoji": "⚔️",
+      "buy_price": 150,
+      "description": "[+1 at] Лучше ничего, правда?"
+    },
+    "basic_horse": {
+      "name": "Basic Horse",
+      "emoji": "🐴",
+      "buy_price": 500,
+      "description": "[tier I] Обычная лошадь"
+    },
+    "dungeon_key": {
+      "name": "Dungeon Key",
+      "emoji": "🔑",
+      "buy_price": 350000,
+      "description": "Ключ для входа в подземелье"
+    },
+    "lotteryticket": {
+      "name": "Lottery Ticket",
+      "emoji": "🎟️",
+      "buy_price": 5000,
+      "description": "Билет для участия в лотерее"
+    },
+    "seed": {
+      "name": "Seed",
+      "emoji": "🌱",
+      "buy_price": 4000,
+      "description": "Используется для фермы"
+    },
+    "common_lootbox": {
+      "name": "Common Lootbox",
+      "emoji": "📦",
+      "buy_price": 800,
+      "description": "Содержит несколько предметов"
+    },
+    "uncommon_lootbox": {
+      "name": "Uncommon Lootbox",
+      "emoji": "📦",
+      "buy_price": 6000,
+      "description": "Содержит некоторые предметы"
+    },
+    "rare_lootbox": {
+      "name": "Rare Lootbox",
+      "emoji": "📦",
+      "buy_price": 40000,
+      "description": "Содержит много предметов"
+    },
+    "epic_lootbox": {
+      "name": "EPIC Lootbox",
+      "emoji": "📦",
+      "buy_price": 150000,
+      "description": "Содержит очень много предметов"
+    },
+    "edgy_lootbox": {
+      "name": "EDGY Lootbox",
+      "emoji": "📦",
+      "buy_price": 420666,
+      "description": "Содержит ОЧЕНЬ много предметов"
+    },
+    "life_boost_a": {
+      "name": "Life Boost A",
+      "emoji": "✨",
+      "buy_price": 10000,
+      "description": "+10 LIFE, временный, не стакается"
+    },
+    "life_boost_b": {
+      "name": "Life Boost B",
+      "emoji": "✨",
+      "buy_price": 100000,
+      "description": "+25 LIFE, временный, не стакается"
+    },
+    "life_boost_c": {
+      "name": "Life Boost C",
+      "emoji": "✨",
+      "buy_price": 1000000,
+      "description": "+50 LIFE, временный, не стакается"
+    }
+  }
+}

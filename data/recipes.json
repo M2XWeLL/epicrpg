@@ -1,0 +1,365 @@
+{
+  "craft": {
+    "1": {
+      "level": 1,
+      "weapon": "wooden_sword",
+      "weapon_name": "Деревянный меч",
+      "weapon_atk": 4,
+      "armor": "fish_armor",
+      "armor_name": "Рыбацкая броня",
+      "armor_def": 9,
+      "weapon_materials": {"epic_log": 1, "wooden_log": 15},
+      "armor_materials": {"normie_fish": 20, "wooden_log": 10}
+    },
+    "2": {
+      "level": 2,
+      "weapon": "fish_sword",
+      "weapon_name": "Рыбацкий меч",
+      "weapon_atk": 13,
+      "armor": "wolf_armor",
+      "armor_name": "Волчья броня",
+      "armor_def": 20,
+      "weapon_materials": {"golden_fish": 20, "epic_log": 5},
+      "armor_materials": {"wooden_log": 120, "epic_log": 2, "wolfskin": 2}
+    },
+    "4": {
+      "level": 4,
+      "weapon": "apple_sword",
+      "weapon_name": "Яблочный меч",
+      "weapon_atk": 32,
+      "armor": "eye_armor",
+      "armor_name": "Броня с глазами",
+      "armor_def": 26,
+      "weapon_materials": {"apple": 65, "wooden_log": 40, "super_log": 1},
+      "armor_materials": {"zombieeye": 1, "wooden_log": 180, "super_log": 3}
+    },
+    "6": {
+      "level": 6,
+      "weapon": "zombie_sword",
+      "weapon_name": "Зомби меч",
+      "weapon_atk": 43,
+      "armor": "banana_armor",
+      "armor_name": "Банановая броня",
+      "armor_def": 36,
+      "weapon_materials": {"wooden_log": 230, "apple": 50, "super_log": 3, "zombieeye": 1},
+      "armor_materials": {"banana": 20, "super_log": 4}
+    },
+    "8": {
+      "level": 8,
+      "weapon": "ruby_sword",
+      "weapon_name": "Рубиновый меч",
+      "weapon_atk": 63,
+      "armor": "epic_armor",
+      "armor_name": "Эпичная броня",
+      "armor_def": 42,
+      "weapon_materials": {"ruby": 4, "mega_log": 1, "potato": 36},
+      "armor_materials": {"epic_log": 125, "epic_fish": 1}
+    },
+    "11": {
+      "level": 11,
+      "weapon": "unicorn_sword",
+      "weapon_name": "Единорогий меч",
+      "weapon_atk": 82,
+      "armor": "ruby_armor",
+      "armor_name": "Рубиновая броня",
+      "armor_def": 54,
+      "weapon_materials": {"unicornhorn": 6, "normie_fish": 500, "super_log": 8},
+      "armor_materials": {"ruby": 7, "unicornhorn": 4, "potato": 120, "mega_log": 2}
+    },
+    "14": {
+      "level": 14,
+      "weapon": "hair_sword",
+      "weapon_name": "Меч из волос",
+      "weapon_atk": 89,
+      "armor": "coin_armor",
+      "armor_name": "Монетная броня",
+      "armor_def": 68,
+      "weapon_materials": {"mermaid_hair": 4, "bread": 220},
+      "armor_materials": {"coin": 654321, "hyper_log": 1}
+    },
+    "17": {
+      "level": 17,
+      "weapon": "coin_sword",
+      "weapon_name": "Монетный меч",
+      "weapon_atk": 96,
+      "armor": "mermaid_armor",
+      "armor_name": "Броня русалки",
+      "armor_def": 83,
+      "weapon_materials": {"coin": 1234567, "ruby": 4, "hyper_log": 2},
+      "armor_materials": {"mermaid_hair": 20, "mega_log": 12, "golden_fish": 200, "normie_fish": 150}
+    },
+    "20": {
+      "level": 20,
+      "weapon": "electronical_sword",
+      "weapon_name": "Электронный меч",
+      "weapon_atk": 100,
+      "armor": "electronical_armor",
+      "armor_name": "Электронная броня",
+      "armor_def": 100,
+      "weapon_materials": {"chip": 8, "mega_log": 1, "potato": 140},
+      "armor_materials": {"chip": 12, "hyper_log": 1, "bread": 180}
+    },
+    "50": {
+      "level": 50,
+      "weapon": "edgy_sword",
+      "weapon_name": "Тёмный меч",
+      "weapon_atk": 200,
+      "armor": "edgy_armor",
+      "armor_name": "Тёмная броня",
+      "armor_def": 200,
+      "weapon_materials": {"wooden_log": 1000, "ultra_log": 1},
+      "armor_materials": {"wolfskin": 50, "zombieeye": 50, "unicornhorn": 50, "mermaid_hair": 35, "chip": 15}
+    }
+  },
+  "forge": {
+    "70": {
+      "level": 70,
+      "weapon": "ultra_edgy_sword",
+      "weapon_name": "ULTRA-EDGY sword",
+      "weapon_atk": 300,
+      "armor": "ultra_edgy_armor",
+      "armor_name": "ULTRA-EDGY armor",
+      "armor_def": 300,
+      "weapon_materials": {"edgy_sword": 1, "ultra_log": 1, "epic_fish": 10, "dragonscale": 10},
+      "armor_materials": {"edgy_armor": 1, "ultra_log": 1, "ruby": 400, "dragonscale": 20}
+    },
+    "100": {
+      "level": 100,
+      "weapon": "omega_sword",
+      "weapon_name": "OMEGA sword",
+      "weapon_atk": 400,
+      "armor": "omega_armor",
+      "armor_name": "OMEGA armor",
+      "armor_def": 400,
+      "weapon_materials": {"ultra_edgy_sword": 1, "heart": 1000, "mega_log": 50, "dragonscale": 30},
+      "armor_materials": {"ultra_edgy_armor": 1, "omega_lootbox": 1, "dragonscale": 50}
+    },
+    "200": {
+      "level": 200,
+      "weapon": "ultra_omega_sword",
+      "weapon_name": "ULTRA-OMEGA sword",
+      "weapon_atk": 500,
+      "armor": "ultra_omega_armor",
+      "armor_name": "ULTRA-OMEGA armor",
+      "armor_def": 500,
+      "weapon_materials": {"omega_sword": 1, "ultra_log": 50, "dragonscale": 80},
+      "armor_materials": {"omega_armor": 1, "life_potion": 1, "dragonscale": 300}
+    },
+    "500": {
+      "level": 500,
+      "weapon": "godly_sword",
+      "weapon_name": "GODLY sword",
+      "weapon_atk": 0,
+      "armor": "godly_cookie",
+      "armor_name": "GODLY cookie",
+      "armor_def": 0,
+      "weapon_materials": {"ultra_omega_sword": 1, "ultra_omega_armor": 1, "dragonessence": 10, "godly_lootbox": 1, "omega_lootbox": 12},
+      "armor_materials": {"arenacookie": 3000, "timedragonessence": 3}
+    }
+  },
+  "voidforge": {
+    "area_16_weapon": {
+      "area": 16,
+      "weapon": "void_sword",
+      "weapon_name": "VOID sword",
+      "weapon_atk": 750,
+      "weapon_tier": 16,
+      "requires": {"weapon": "basic_sword"},
+      "weapon_materials": {"ultimate_log": 8, "dark_energy": 60}
+    },
+    "area_16_armor": {
+      "area": 16,
+      "armor": "void_armor",
+      "armor_name": "VOID armor",
+      "armor_def": 750,
+      "armor_tier": 16,
+      "requires": {"armor": "fish_armor"},
+      "armor_materials": {"super_fish": 60, "dark_energy": 90}
+    },
+    "area_17_weapon": {
+      "area": 17,
+      "weapon": "abyss_sword",
+      "weapon_name": "ABYSS sword",
+      "weapon_atk": 1000,
+      "weapon_tier": 17,
+      "requires": {"weapon": "electronical_sword"},
+      "weapon_materials": {"omega_lootbox": 12, "dark_energy": 200}
+    },
+    "area_17_armor": {
+      "area": 17,
+      "armor": "abyss_armor",
+      "armor_name": "ABYSS armor",
+      "armor_def": 1000,
+      "armor_tier": 17,
+      "requires": {"armor": "coin_armor"},
+      "armor_materials": {"ultimate_log": 20, "dark_energy": 900}
+    },
+    "area_18_weapon": {
+      "area": 18,
+      "weapon": "corrupted_sword",
+      "weapon_name": "CORRUPTED sword",
+      "weapon_atk": 2500,
+      "weapon_tier": 18,
+      "requires": {"weapon": "omega_sword"},
+      "weapon_materials": {"edgy_lootbox": 800}
+    },
+    "area_18_armor": {
+      "area": 18,
+      "armor": "corrupted_armor",
+      "armor_name": "CORRUPTED armor",
+      "armor_def": 2500,
+      "armor_tier": 18,
+      "requires": {"armor": "super_armor"},
+      "armor_materials": {"super_fish": 240, "dark_energy": 650}
+    },
+    "area_19_weapon": {
+      "area": 19,
+      "weapon": "space_sword",
+      "weapon_name": "SPACE sword",
+      "weapon_atk": 5000,
+      "weapon_tier": 19,
+      "requires": {"weapon": "omega_sword"},
+      "weapon_materials": {"life_potion": 10, "Watermelon": 2100, "dark_energy": 1000}
+    },
+    "area_19_armor": {
+      "area": 19,
+      "armor": "space_armor",
+      "armor_name": "SPACE armor",
+      "armor_def": 5000,
+      "armor_tier": 19,
+      "requires": {"armor": "lootbox_armor"},
+      "armor_materials": {"ultimate_log": 80, "godly_lootbox": 2, "coin": 4200000000}
+    },
+    "area_20_weapon": {
+      "area": 20,
+      "weapon": "time_sword",
+      "weapon_name": "TIME sword",
+      "weapon_atk": 10000,
+      "weapon_tier": 20,
+      "tt_min": 5,
+      "requires": {"weapon": "edgy_sword"},
+      "weapon_materials": {"void_lootbox": 1, "dark_energy": 15000}
+    },
+    "area_20_armor": {
+      "area": 20,
+      "armor": "time_armor",
+      "armor_name": "TIME armor",
+      "armor_def": 10000,
+      "armor_tier": 20,
+      "tt_min": 5,
+      "requires": {"armor": "edgy_armor"},
+      "armor_materials": {"ultimate_log": 500, "dark_energy": 15000}
+    }
+  },
+  "time_travel": {
+    "tt1": {
+      "tt": 1,
+      "weapon": "banana_sword",
+      "weapon_name": "Банановый меч",
+      "weapon_atk": 19,
+      "armor": "scaled_armor",
+      "armor_name": "Чешуйчатая броня",
+      "armor_def": 23,
+      "weapon_materials": {"epic_log": 1, "banana": 1},
+      "armor_materials": {"dragonscale": 2}
+    },
+    "tt3": {
+      "tt": 3,
+      "weapon": "scaled_sword",
+      "weapon_name": "Чешуйчатый меч",
+      "weapon_atk": 61,
+      "armor": "watermelon_armor",
+      "armor_name": "Арбузная броня",
+      "armor_def": 40,
+      "weapon_materials": {"dragonscale": 3},
+      "armor_materials": {"Watermelon": 8}
+    },
+    "tt7": {
+      "tt": 7,
+      "weapon": "watermelon_sword",
+      "weapon_name": "Арбузный меч",
+      "weapon_atk": 99,
+      "armor": "super_armor",
+      "armor_name": "Супер броня",
+      "armor_def": 86,
+      "weapon_materials": {"Watermelon": 1, "potato": 10},
+      "armor_materials": {"super_log": 1, "super_fish": 1}
+    },
+    "tt12": {
+      "tt": 12,
+      "weapon": "epic_sword_tt",
+      "weapon_name": "Эпичный меч (TT12)",
+      "weapon_atk": 130,
+      "armor": "lootbox_armor",
+      "armor_name": "Броня лутбоксов",
+      "armor_def": 124,
+      "weapon_materials": {"epic_fish": 1, "super_fish": 1, "epic_log": 3},
+      "armor_materials": {"common_lootbox": 6, "uncommon_lootbox": 5, "rare_lootbox": 4, "epic_lootbox": 3, "edgy_lootbox": 2, "omega_lootbox": 1}
+    },
+    "tt16": {
+      "tt": 16,
+      "weapon": "lottery_sword",
+      "weapon_name": "Лотерейный меч",
+      "weapon_atk": 186,
+      "armor": "wooden_armor_tt",
+      "armor_name": "Деревянная броня (TT16)",
+      "armor_def": 177,
+      "weapon_materials": {"lotteryticket": 3, "ultra_log": 1},
+      "armor_materials": {"ultimate_log": 1, "wooden_log": 15}
+    }
+  },
+  "items": {
+    "golden_fish": {"result": "golden_fish", "result_name": "Золотая рыба", "materials": {"normie_fish": 15}},
+    "epic_fish": {"result": "epic_fish", "result_name": "Эпичная рыба", "materials": {"golden_fish": 100}},
+    "epic_log": {"result": "epic_log", "result_name": "Эпичный лог", "materials": {"wooden_log": 25}},
+    "super_log": {"result": "super_log", "result_name": "Супер лог", "materials": {"epic_log": 10}},
+    "mega_log": {"result": "mega_log", "result_name": "Мега лог", "materials": {"super_log": 10}},
+    "hyper_log": {"result": "hyper_log", "result_name": "Хайпер лог", "materials": {"mega_log": 10}},
+    "ultra_log": {"result": "ultra_log", "result_name": "Ультра лог", "materials": {"hyper_log": 10}},
+    "banana": {"result": "banana", "result_name": "Банан", "materials": {"apple": 15}}
+  },
+  "cook": {
+    "baked_fish": {
+      "name": "Запечённая рыба",
+      "materials": {"golden_fish": 12, "epic_fish": 1, "epic_log": 12},
+      "buff": "+5 к макс. HP",
+      "area": 5
+    },
+    "hairn": {
+      "name": "Хейрн",
+      "materials": {"unicornhorn": 1, "mermaid_hair": 2},
+      "buff": "+1 DEF, +1 ATK",
+      "area": 5
+    },
+    "fruit_salad": {
+      "name": "Фруктовый салат",
+      "materials": {"apple": 25, "banana": 6},
+      "buff": "+1 к макс. HP",
+      "area": 5
+    },
+    "apple_juice": {
+      "name": "Яблочный сок",
+      "materials": {"apple": 8, "hyper_log": 1},
+      "buff": "+2 DEF, +2 ATK",
+      "area": 5
+    },
+    "carrot_bread": {
+      "name": "Морковный хлеб",
+      "materials": {"bread": 1, "carrot": 160},
+      "buff": "+1 уровень",
+      "area": 5
+    },
+    "orange_juice": {
+      "name": "Апельсиновый сок",
+      "materials": {"carrot": 320},
+      "buff": "+3 DEF, +3 ATK",
+      "area": 5
+    },
+    "super_cookie": {
+      "name": "Супер печенье",
+      "materials": {"arenacookie": 1000},
+      "buff": "+10 уровней",
+      "area": 5
+    }
+  }
+}

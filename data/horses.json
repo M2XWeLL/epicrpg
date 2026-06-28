@@ -1,0 +1,193 @@
+{
+  "types": {
+    "normal": {
+      "name": "Normal", "emoji": "🐴",
+      "boost_stat": null, "boost_pct_per_level": 0
+    },
+    "defender": {
+      "name": "Defender", "emoji": "🛡️",
+      "boost_stat": "def",
+      "boost_pct_per_level": {
+        "1": 0.20, "2": 0.24, "3": 0.28, "4": 0.32, "5": 0.36,
+        "6": 0.40, "7": 0.44, "8": 0.48, "9": 0.52, "10": 0.56
+      }
+    },
+    "strong": {
+      "name": "Strong", "emoji": "💪",
+      "boost_stat": "atk",
+      "boost_pct_per_level": {
+        "1": 0.20, "2": 0.24, "3": 0.28, "4": 0.32, "5": 0.36,
+        "6": 0.40, "7": 0.44, "8": 0.48, "9": 0.52, "10": 0.56
+      }
+    },
+    "magic": {
+      "name": "Magic", "emoji": "🔮",
+      "boost_stat": "enchant",
+      "boost_pct_per_level": {
+        "1": 0.20, "2": 0.24, "3": 0.28, "4": 0.32, "5": 0.36,
+        "6": 0.40, "7": 0.44, "8": 0.48, "9": 0.52, "10": 0.56
+      }
+    },
+    "tank": {
+      "name": "Tank", "emoji": "❤️",
+      "boost_stat": "hp",
+      "boost_pct_per_level": {
+        "1": 0.10, "2": 0.12, "3": 0.14, "4": 0.16, "5": 0.18,
+        "6": 0.20, "7": 0.22, "8": 0.24, "9": 0.26, "10": 0.28
+      }
+    },
+    "special": {
+      "name": "Special", "emoji": "⭐",
+      "boost_stat": "quest",
+      "boost_pct_per_level": {
+        "1": 0.10, "2": 0.12, "3": 0.14, "4": 0.16, "5": 0.18,
+        "6": 0.20, "7": 0.22, "8": 0.24, "9": 0.26, "10": 0.28
+      }
+    },
+    "super_special": {
+      "name": "Super Special", "emoji": "🌟",
+      "boost_stat": "super_quest",
+      "boost_pct_per_level": {
+        "1": 0.10, "2": 0.12, "3": 0.14, "4": 0.16, "5": 0.18,
+        "6": 0.20, "7": 0.22, "8": 0.24, "9": 0.26, "10": 0.28
+      }
+    },
+    "golden": {
+      "name": "Golden", "emoji": "✨",
+      "boost_stat": "coins",
+      "boost_pct_per_level": {
+        "1": 1.5, "2": 1.8, "3": 2.1, "4": 2.4, "5": 2.7,
+        "6": 3.0, "7": 3.3, "8": 3.6, "9": 3.9, "10": 4.2
+      }
+    },
+    "festive": {
+      "name": "Festive", "emoji": "🎄",
+      "boost_stat": "events",
+      "boost_pct_per_level": {
+        "1": 1.0, "2": 1.2, "3": 1.4, "4": 1.6, "5": 1.8,
+        "6": 2.0, "7": 2.2, "8": 2.4, "9": 2.6, "10": 2.8
+      }
+    }
+  },
+  "tier_breeding_chance": {
+    "1": 1.00, "2": 0.60, "3": 0.30, "4": 0.15, "5": 0.05,
+    "6": 0.02, "7": 0.01, "8": 0.00333, "9": 0.00111
+  },
+  "tier_breeding_guarantee": {
+    "1": 1, "2": 2, "3": 4, "4": 8, "5": 24,
+    "6": 60, "7": 120, "8": 360, "9": 1080
+  },
+  "tier_boosts": {
+    "1": {},
+    "2": {"daily_weekly": 0.05},
+    "3": {"daily_weekly": 0.10},
+    "4": {"daily_weekly": 0.20, "immortality": true},
+    "5": {"daily_weekly": 0.30, "immortality": true, "lootbox": 1.2, "race": true},
+    "6": {"daily_weekly": 0.45, "immortality": true, "lootbox": 1.5, "no_key": true},
+    "7": {"daily_weekly": 0.60, "immortality": true, "lootbox": 2.0, "no_key": true, "monster_item": 1.2},
+    "8": {"daily_weekly": 0.80, "immortality": true, "lootbox": 3.0, "no_key": true, "monster_item": 1.5, "better_enchant": true},
+    "9": {"daily_weekly": 1.00, "immortality": true, "lootbox": 5.0, "no_key": true, "monster_item": 2.0, "better_enchant": true, "pet_chance": 2.5},
+    "10": {"daily_weekly": 2.00, "immortality": true, "lootbox": 7.5, "no_key": true, "monster_item": 3.0, "better_enchant": true, "pet_chance": 5.0, "multi_drop": true, "badge_slots": 2}
+  },
+  "race_rewards": {
+    "5": {
+      "1": [
+        {"type": "tier_up", "chance": 0.146},
+        {"type": "horse_level", "chance": 0.427},
+        {"type": "lootbox", "item": "rare_lootbox", "chance": 0.214},
+        {"type": "epic_berries", "amount": 5, "chance": 0.213}
+      ],
+      "2": [
+        {"type": "lootbox", "item": "uncommon_lootbox", "chance": 1.0}
+      ],
+      "3": [
+        {"type": "lootbox", "item": "common_lootbox", "chance": 1.0}
+      ]
+    },
+    "6": {
+      "1": [
+        {"type": "tier_up", "chance": 0.103},
+        {"type": "horse_level", "chance": 0.449},
+        {"type": "lootbox", "item": "epic_lootbox", "chance": 0.224},
+        {"type": "epic_berries", "amount": 8, "chance": 0.224}
+      ],
+      "2": [
+        {"type": "lootbox", "item": "rare_lootbox", "chance": 0.5},
+        {"type": "lootbox", "item": "uncommon_lootbox", "chance": 0.5}
+      ],
+      "3": [
+        {"type": "lootbox", "item": "common_lootbox", "chance": 1.0}
+      ]
+    },
+    "7": {
+      "1": [
+        {"type": "tier_up", "chance": 0.0443},
+        {"type": "horse_level", "chance": 0.478},
+        {"type": "lootbox", "item": "edgy_lootbox", "chance": 0.239},
+        {"type": "epic_berries", "amount": 12, "chance": 0.2387}
+      ],
+      "2": [
+        {"type": "lootbox", "item": "epic_lootbox", "chance": 0.5},
+        {"type": "lootbox", "item": "rare_lootbox", "chance": 0.5}
+      ],
+      "3": [
+        {"type": "lootbox", "item": "uncommon_lootbox", "chance": 1.0}
+      ]
+    },
+    "8": {
+      "1": [
+        {"type": "tier_up", "chance": 0.0130},
+        {"type": "horse_level", "chance": 0.4935},
+        {"type": "lootbox", "item": "omega_lootbox", "chance": 0.2468},
+        {"type": "lootbox", "item": "edgy_lootbox", "chance": 0.1234},
+        {"type": "epic_berries", "amount": 15, "chance": 0.1233}
+      ],
+      "2": [
+        {"type": "lootbox", "item": "edgy_lootbox", "chance": 0.5},
+        {"type": "lootbox", "item": "epic_lootbox", "chance": 0.5}
+      ],
+      "3": [
+        {"type": "lootbox", "item": "rare_lootbox", "chance": 1.0}
+      ]
+    },
+    "9": {
+      "1": [
+        {"type": "tier_up", "chance": 0.005},
+        {"type": "horse_level", "chance": 0.4975},
+        {"type": "pet", "tier": 3, "chance": 0.1658},
+        {"type": "pet", "tier": 2, "chance": 0.0829},
+        {"type": "lootbox", "item": "omega_lootbox", "chance": 0.0829},
+        {"type": "lootbox", "item": "edgy_lootbox", "chance": 0.0829},
+        {"type": "epic_berries", "amount": 20, "chance": 0.083}
+      ],
+      "2": [
+        {"type": "pet", "tier": 2, "chance": 0.5},
+        {"type": "pet", "tier": 1, "chance": 0.5}
+      ],
+      "3": [
+        {"type": "lootbox", "item": "edgy_lootbox", "chance": 1.0}
+      ]
+    },
+    "10": {
+      "1": [
+        {"type": "horse_level", "chance": 0.500},
+        {"type": "pet", "tier": 5, "chance": 0.1667},
+        {"type": "pet", "tier": 4, "chance": 0.0833},
+        {"type": "lootbox", "item": "omega_lootbox", "chance": 0.0833},
+        {"type": "epic_berries", "amount": 25, "chance": 0.1667}
+      ],
+      "2": [
+        {"type": "pet", "tier": 3, "chance": 0.333},
+        {"type": "pet", "tier": 2, "chance": 0.333},
+        {"type": "lootbox", "item": "edgy_lootbox", "count": 3, "chance": 0.334}
+      ],
+      "3": [
+        {"type": "lootbox", "item": "edgy_lootbox", "count": 3, "chance": 0.5},
+        {"type": "pet", "tier": 1, "chance": 0.5}
+      ]
+    }
+  },
+  "epicness_max": 99,
+  "breeding_cooldown": 86400,
+  "race_cooldown": 86400
+}

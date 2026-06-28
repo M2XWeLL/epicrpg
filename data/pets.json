@@ -1,0 +1,107 @@
+{
+  "skills": {
+    "fast": {"score": 2, "effect": "adventure_cd_reduce", "desc": "Requires less time to come back from an adventure. Each rank decreases time by 9m 36s."},
+    "happy": {"score": 4, "effect": "fusion_tier_boost", "desc": "Has a higher chance to get a better tier pet when used in pet fusion."},
+    "clever": {"score": 6, "effect": "skill_advance_chance", "desc": "Higher chance to increase the rank of its skills in pet adventure."},
+    "digger": {"score": 8, "effect": "drill_coins_boost", "desc": "Find more coins in pet adventure (Drill action)."},
+    "lucky": {"score": 10, "effect": "find_item_tier_boost", "desc": "Find better item tiers in an adventure (Find action)."},
+    "time_traveler": {"score": 12, "effect": "instant_adventure_return", "desc": "Has a chance to come back from an adventure instantly."},
+    "epic": {"score": 14, "effect": "send_two_pets", "desc": "If this pet is sent to an adventure, another one can be sent too. Must be sent FIRST."},
+    "ascended": {"score": 504, "effect": "find_new_pet_on_adventure", "desc": "Has chance to find a new pet in an adventure. Cannot be lost in fusion."},
+    "perfect": {"score": 0, "effect": "find_multiple_pets", "desc": "Has a chance to find multiple pets in an adventure."},
+    "fighter": {"score": 0, "effect": "dungeon_damage_boost", "desc": "Chance to deal extra damage in dungeons and receive 1-3 dragon essence."},
+    "master": {"score": 0, "effect": "higher_tier_ascend_pets", "desc": "Can bring higher tier pets if ascended."},
+    "normie": {"score": 0, "effect": "none", "desc": "No boost, absolutely nothing. Still cute though."}
+  },
+  "skill_ranks": {"F": 1, "E": 2, "D": 3, "C": 4, "B": 5, "A": 6, "S": 7, "SS": 8, "SS+": 9},
+  "rank_order": ["F", "E", "D", "C", "B", "A", "S", "SS", "SS+"],
+  "skill_advance": {
+    "base_chance": 0.10,
+    "clever_bonus": 0.05,
+    "learn_bonus": 0.15,
+    "max_rank": "SS+"
+  },
+  "skill_progression": [
+    {"min_tier": 1, "max_tier": 5, "pool": ["fast", "happy", "clever", "digger", "lucky"]},
+    {"min_tier": 6, "max_tier": 10, "pool": ["fast", "happy", "clever", "digger", "lucky", "time_traveler"]},
+    {"min_tier": 11, "max_tier": 15, "pool": ["fast", "happy", "clever", "digger", "lucky", "time_traveler", "epic"]},
+    {"min_tier": 16, "max_tier": 20, "pool": ["time_traveler", "epic", "ascended"]},
+    {"min_tier": 21, "max_tier": 25, "pool": ["epic", "ascended", "perfect", "fighter"]}
+  ],
+  "encounter": {
+    "max_inputs": 6,
+    "pat_happiness_gain": [8, 12],
+    "feed_hunger_reduce": [18, 22],
+    "skill_chance_by_inputs": {"1": 0.50, "2": 0.40, "3": 0.30, "4": 0.20, "5": 0.10, "6": 0.05}
+  },
+  "pets": {
+    "turtle": {"name": "Turtle", "emoji": "🐢", "base_score": 1, "tiers": {"I": {"score": 1, "skill": "slow", "skill_name": "Slow"}, "II": {"score": 10, "skill": "defensive", "skill_name": "Defensive"}, "III": {"score": 25, "skill": "armored", "skill_name": "Armored"}}},
+    "dragon": {"name": "Dragon", "emoji": "🐉", "base_score": 20, "tiers": {"I": {"score": 15, "skill": "normie", "skill_name": "Normie"}, "II": {"score": 20, "skill": "fast", "skill_name": "Fast"}, "III": {"score": 30, "skill": "clever", "skill_name": "Clever"}}},
+    "dog": {"name": "Dog", "emoji": "🐕", "base_score": 1, "tiers": {"I": {"score": 1, "skill": "normie", "skill_name": "Normie"}, "II": {"score": 8, "skill": "fast", "skill_name": "Fast"}, "III": {"score": 20, "skill": "clever", "skill_name": "Clever"}}},
+    "cat": {"name": "Cat", "emoji": "🐈", "base_score": 1, "tiers": {"I": {"score": 1, "skill": "normie", "skill_name": "Normie"}, "II": {"score": 8, "skill": "sneaky", "skill_name": "Sneaky"}, "III": {"score": 20, "skill": "lucky", "skill_name": "Lucky"}}},
+    "wolf": {"name": "Wolf", "emoji": "🐺", "base_score": 5, "tiers": {"I": {"score": 5, "skill": "normie", "skill_name": "Normie"}, "II": {"score": 15, "skill": "fast", "skill_name": "Fast"}, "III": {"score": 30, "skill": "fierce", "skill_name": "Fierce"}}},
+    "zombie": {"name": "Zombie", "emoji": "🧟", "base_score": 5, "tiers": {"I": {"score": 5, "skill": "normie", "skill_name": "Normie"}, "II": {"score": 15, "skill": "slow", "skill_name": "Slow"}, "III": {"score": 30, "skill": "undead", "skill_name": "Undead"}}},
+    "unicorn": {"name": "Unicorn", "emoji": "🦄", "base_score": 10, "tiers": {"I": {"score": 10, "skill": "normie", "skill_name": "Normie"}, "II": {"score": 25, "skill": "magical", "skill_name": "Magical"}, "III": {"score": 45, "skill": "divine", "skill_name": "Divine"}}},
+    "mermaid": {"name": "Mermaid", "emoji": "🧜", "base_score": 10, "tiers": {"I": {"score": 10, "skill": "normie", "skill_name": "Normie"}, "II": {"score": 25, "skill": "fast", "skill_name": "Fast"}, "III": {"score": 45, "skill": "ocean", "skill_name": "Ocean"}}},
+    "slime": {"name": "Slime", "emoji": "🟢", "base_score": 3, "tiers": {"I": {"score": 3, "skill": "normie", "skill_name": "Normie"}, "II": {"score": 12, "skill": "bouncy", "skill_name": "Bouncy"}, "III": {"score": 28, "skill": "mega", "skill_name": "Mega"}}},
+    "bear": {"name": "Bear", "emoji": "🐻", "base_score": 8, "tiers": {"I": {"score": 8, "skill": "normie", "skill_name": "Normie"}, "II": {"score": 20, "skill": "strong", "skill_name": "Strong"}, "III": {"score": 40, "skill": "berserk", "skill_name": "Berserk"}}},
+    "phoenix": {"name": "Phoenix", "emoji": "🔥", "base_score": 15, "tiers": {"I": {"score": 15, "skill": "normie", "skill_name": "Normie"}, "II": {"score": 30, "skill": "fast", "skill_name": "Fast"}, "III": {"score": 50, "skill": "rebirth", "skill_name": "Rebirth"}}},
+    "ghost": {"name": "Ghost", "emoji": "👻", "base_score": 7, "tiers": {"I": {"score": 7, "skill": "normie", "skill_name": "Normie"}, "II": {"score": 18, "skill": "sneaky", "skill_name": "Sneaky"}, "III": {"score": 35, "skill": "spectral", "skill_name": "Spectral"}}},
+    "bat": {"name": "Bat", "emoji": "🦇", "base_score": 4, "tiers": {"I": {"score": 4, "skill": "normie", "skill_name": "Normie"}, "II": {"score": 12, "skill": "fast", "skill_name": "Fast"}, "III": {"score": 25, "skill": "vampire", "skill_name": "Vampire"}}},
+    "spider": {"name": "Spider", "emoji": "🕷️", "base_score": 4, "tiers": {"I": {"score": 4, "skill": "normie", "skill_name": "Normie"}, "II": {"score": 12, "skill": "web", "skill_name": "Web"}, "III": {"score": 25, "skill": "venomous", "skill_name": "Venomous"}}},
+    "fairy": {"name": "Fairy", "emoji": "🧚", "base_score": 12, "tiers": {"I": {"score": 12, "skill": "normie", "skill_name": "Normie"}, "II": {"score": 28, "skill": "magical", "skill_name": "Magical"}, "III": {"score": 48, "skill": "enchanted", "skill_name": "Enchanted"}}},
+    "golem": {"name": "Golem", "emoji": "🗿", "base_score": 8, "tiers": {"I": {"score": 8, "skill": "normie", "skill_name": "Normie"}, "II": {"score": 20, "skill": "tank", "skill_name": "Tank"}, "III": {"score": 40, "skill": "fortress", "skill_name": "Fortress"}}},
+    "elemental": {"name": "Elemental", "emoji": "🌀", "base_score": 15, "tiers": {"I": {"score": 15, "skill": "normie", "skill_name": "Normie"}, "II": {"score": 30, "skill": "fast", "skill_name": "Fast"}, "III": {"score": 50, "skill": "chaos", "skill_name": "Chaos"}}},
+    "demon": {"name": "Demon", "emoji": "👿", "base_score": 18, "tiers": {"I": {"score": 18, "skill": "normie", "skill_name": "Normie"}, "II": {"score": 35, "skill": "fierce", "skill_name": "Fierce"}, "III": {"score": 55, "skill": "infernal", "skill_name": "Infernal"}}},
+    "angel": {"name": "Angel", "emoji": "😇", "base_score": 18, "tiers": {"I": {"score": 18, "skill": "normie", "skill_name": "Normie"}, "II": {"score": 35, "skill": "healing", "skill_name": "Healing"}, "III": {"score": 55, "skill": "divine", "skill_name": "Divine"}}}
+  },
+  "total_pets": 19,
+  "catch_rates": {
+    "area_1_5": {"common": 0.70, "uncommon": 0.25, "rare": 0.05},
+    "area_6_10": {"common": 0.50, "uncommon": 0.35, "rare": 0.15},
+    "area_11_15": {"common": 0.30, "uncommon": 0.40, "rare": 0.30},
+    "area_16_plus": {"common": 0.15, "uncommon": 0.40, "rare": 0.45}
+  },
+  "common_pets": ["turtle", "dog", "cat", "slime", "bat", "spider"],
+  "uncommon_pets": ["wolf", "zombie", "bear", "ghost", "golem"],
+  "rare_pets": ["dragon", "unicorn", "mermaid", "phoenix", "fairy", "elemental", "demon", "angel"],
+  "fusion": {
+    "upgrade_chance_base": 0.30,
+    "upgrade_chance_bonus_per_score": 0.005,
+    "tt_boost_per_tt": 0.02,
+    "happy_skill_bonus": 0.10,
+    "skill_inherit_chance_base": 0.30,
+    "max_tier_diff_for_value": 5,
+    "event_pets_preserve_type": true
+  },
+  "adventure": {
+    "duration_hours": 4,
+    "find": {
+      "base_find_chance": 0.60,
+      "score_bonus_per_point": 0.02,
+      "max_finds": 3,
+      "lucky_bonus": 0.15
+    },
+    "learn": {
+      "base_advance_chance": 0.30,
+      "score_bonus_per_point": 0.01,
+      "clever_bonus": 0.15
+    },
+    "drill": {
+      "base_find_chance": 0.50,
+      "score_bonus_per_point": 0.02,
+      "max_finds": 5,
+      "digger_bonus": 0.20
+    }
+  },
+  "tournament": {
+    "duration_hours": 24,
+    "min_score_to_enter": 5
+  },
+  "ascend": {
+    "required_tier": "III",
+    "required_score": 40,
+    "ascended_skill": "ascended",
+    "ascended_bonus": "+25% ко всему"
+  }
+}
